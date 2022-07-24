@@ -1,5 +1,5 @@
 # RecipeRec
-
+This is the official repo for the IJCAI'22 paper "[RecipeRec: A Heterogeneous Graph Learning Model for Recipe Recommendation](https://arxiv.org/pdf/2205.14005.pdf)".
 
 ## Data
 Please first [download the data](https://drive.google.com/drive/folders/1DvjFUa9gGqalrFAYFzbB2onGXU2K4LNu?usp=sharing), then put them under folder 'data/'.
@@ -14,7 +14,7 @@ userID2userNodeID_dict, userNodeID2userID_dict = torch.load('../data/userID2user
 ## Code
 All codes have been put into a jupyter notebook for easy reading and executing. We further log the results in the notebook for demonstration purposes. 
 
-## Reference
+## Citing RecipeRec
 If you find RecipeRec useful, please cite our paper.
 ```
 @inproceedings{RecipeRec,
